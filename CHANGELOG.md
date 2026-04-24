@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.24.0](https://github.com/ChromeDevTools/chrome-devtools-mcp/compare/chrome-devtools-mcp-v0.23.0...chrome-devtools-mcp-v0.24.0) (2026-04-24)
+
+
+### 🎉 Features
+
+* group identical consecutive console messages in list_console_messages ([#1939](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/1939)) ([dbddb2e](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/dbddb2e4efb01c25ce4c6d96fd45b3ab29a498eb))
+
+
+### 🛠️ Fixes
+
+* note about missing elements should not show in verbose mode ([#1950](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/1950)) ([80bee1e](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/80bee1e6cd0e62995496ea9d001994c78ec9dcf0))
+
 ## [0.23.0](https://github.com/ChromeDevTools/chrome-devtools-mcp/compare/chrome-devtools-mcp-v0.22.0...chrome-devtools-mcp-v0.23.0) (2026-04-22)
 
 
