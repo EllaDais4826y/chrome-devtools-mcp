@@ -15,7 +15,8 @@
     "typecheck": "tsc --noEmit",
     "clean": "rm -rf dist",
     "rebuild": "npm run clean && npm run build",
-    "watch": "tsc --watch"
+    "watch": "tsc --watch",
+    "lint:fix": "eslint src --ext .ts --fix"
   },
   "keywords": [
     "mcp",
