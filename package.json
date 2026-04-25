@@ -17,7 +17,8 @@
     "rebuild": "npm run clean && npm run build",
     "watch": "tsc --watch",
     "lint:fix": "eslint src --ext .ts --fix",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "test": "echo \"No tests yet\" && exit 0"
   },
   "keywords": [
     "mcp",
