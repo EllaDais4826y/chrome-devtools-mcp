@@ -16,7 +16,8 @@
     "clean": "rm -rf dist",
     "rebuild": "npm run clean && npm run build",
     "watch": "tsc --watch",
-    "lint:fix": "eslint src --ext .ts --fix"
+    "lint:fix": "eslint src --ext .ts --fix",
+    "prepare": "npm run build"
   },
   "keywords": [
     "mcp",
@@ -46,7 +47,7 @@
     "typescript": "^5.6.0"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.0.0"
   },
   "files": [
     "dist",
