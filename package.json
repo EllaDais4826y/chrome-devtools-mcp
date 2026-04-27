@@ -18,7 +18,8 @@
     "watch": "tsc --watch",
     "lint:fix": "eslint src --ext .ts --fix",
     "prepare": "npm run build",
-    "test": "echo \"No tests yet\" && exit 0"
+    "test": "echo \"No tests yet\" && exit 0",
+    "dev:verbose": "DEBUG=* tsx src/index.ts"
   },
   "keywords": [
     "mcp",
@@ -55,5 +56,5 @@
     "README.md",
     "LICENSE"
   ],
-  "_personal_notes": "Personal fork for learning MCP + CDP integration. Upstream: ChromeDevTools/chrome-devtools-mcp. TODO: experiment with Network.setRequestInterception for mocking API responses in dev."
+  "_personal_notes": "Personal fork for learning MCP + CDP integration. Upstream: ChromeDevTools/chrome-devtools-mcp. TODO: experiment with Network.setRequestInterception for mocking API responses in dev. Added dev:verbose script for easier debugging of CDP events."
 }
