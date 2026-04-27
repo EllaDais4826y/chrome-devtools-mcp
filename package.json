@@ -55,5 +55,5 @@
     "README.md",
     "LICENSE"
   ],
-  "_personal_notes": "Personal fork for learning MCP + CDP integration. Upstream: ChromeDevTools/chrome-devtools-mcp"
+  "_personal_notes": "Personal fork for learning MCP + CDP integration. Upstream: ChromeDevTools/chrome-devtools-mcp. TODO: experiment with Network.setRequestInterception for mocking API responses in dev."
 }
