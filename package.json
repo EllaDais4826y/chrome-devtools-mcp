@@ -20,7 +20,8 @@
     "prepare": "npm run build",
     "test": "echo \"No tests yet\" && exit 0",
     "dev:verbose": "DEBUG=* tsx src/index.ts",
-    "dev:network": "DEBUG=chrome-remote-interface tsx src/index.ts"
+    "dev:network": "DEBUG=chrome-remote-interface tsx src/index.ts",
+    "dev:inspect": "NODE_OPTIONS='--inspect' tsx src/index.ts"
   },
   "keywords": [
     "mcp",
@@ -57,5 +58,5 @@
     "README.md",
     "LICENSE"
   ],
-  "_personal_notes": "Personal fork for learning MCP + CDP integration. Upstream: ChromeDevTools/chrome-devtools-mcp. TODO: experiment with Network.setRequestInterception for mocking API responses in dev. Added dev:verbose script for easier debugging of CDP events. Added dev:network script to scope debug output to chrome-remote-interface only — less noisy than DEBUG=* when focusing on network events."
+  "_personal_notes": "Personal fork for learning MCP + CDP integration. Upstream: ChromeDevTools/chrome-devtools-mcp. TODO: experiment with Network.setRequestInterception for mocking API responses in dev. Added dev:verbose script for easier debugging of CDP events. Added dev:network script to scope debug output to chrome-remote-interface only — less noisy than DEBUG=* when focusing on network events. Added dev:inspect script to attach Node.js debugger (useful with VS Code's 'Attach to Node Process' launch config)."
 }
